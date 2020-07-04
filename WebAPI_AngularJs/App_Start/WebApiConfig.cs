@@ -13,7 +13,7 @@ namespace WebAPI_AngularJs
 
             // Web API routes
 
-            config.EnableCors();
+             config.EnableCors();
 
             config.MapHttpAttributeRoutes();
 
