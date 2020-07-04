@@ -12,6 +12,9 @@ namespace WebAPI_AngularJs.Controllers
     [EnableCors("*","*","*")]
     public class EmployeeApiController : ApiController
     {
+        //http://localhost:2212/api/Employeeapi
+        //        routeTemplate: "api/{controller}/{id}",
+        
         public List<Employee> GetAll()
         {
             return new List<Employee>
